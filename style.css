@@ -35,11 +35,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 25%;
     height: 100%;
 }
 
-.slide img {
+.slide > img {
     width: 80%;
     height: auto;
 }
+
