@@ -44,3 +44,12 @@ body {
     height: auto;
 }
 
+@keyframes slide {
+    15% {}
+    20% {}
+    35% {}
+    40% {}
+    45%{}
+    60% {}
+    
+}
