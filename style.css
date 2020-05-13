@@ -42,34 +42,34 @@ body {
 }
 
 @keyframes slide {
-    15% {
-        left: 0;
+    10% {
+        right: 0;
     }
     20% {
-        left: -100%;
+        right: -100%;
     }
-    35% {
-        left: -100%;
+    30% {
+        right: -100%;
     }
     40% {
-        left: -200%;
+        right: -200%;
     }
-    55%{
-        left: -200%;
+    50%{
+        right: -200%;
     }
     60% {
-        left: -300%;
+        right: -300%;
     }
-    75% {
-        left: -300%;
+    70% {
+        right: -300%;
     }
     80% {
-        left: -400%;
+        right: -400%;
     }
-    95% {
-        left: -400%;
+    90% {
+        right: -400%;
     }
     100% {
-        left: 0;
+        right: 0;
     }
 }
