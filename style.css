@@ -8,16 +8,13 @@ body {
     justify-content: center;
     align-items: center;
     background: radial-gradient(circle, rgba(0,169,171,1) 0%, rgba(105,39,157,1) 100%);
-    box-sizing: border-box;
-    margin: auto;
-    min-height: 100vh;
-    min-width: 100vw;
-    padding-top: 50vh;
+    height: 100vh;
+    width: 100vw;
 }
 
 .slider-container {
     position: relative;
-    width: 50%;
+    width: 80%;
     height: 100%;
     overflow: hidden;
 }
@@ -45,15 +42,34 @@ body {
 }
 
 @keyframes slide {
-    15% {}
-    20% {}
-    35% {}
-    40% {}
-    45%{}
-    60% {}
-    75% {}
-    80% {}
-    95% {}
-    100% {}
-    
+    15% {
+        left: 0;
+    }
+    20% {
+        left: -100%;
+    }
+    35% {
+        left: -100%;
+    }
+    40% {
+        left: -200%;
+    }
+    55%{
+        left: -200%;
+    }
+    60% {
+        left: -300%;
+    }
+    75% {
+        left: -300%;
+    }
+    80% {
+        left: -400%;
+    }
+    95% {
+        left: -400%;
+    }
+    100% {
+        left: 0;
+    }
 }
