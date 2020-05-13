@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle, rgba(0,169,171,1) 0%, rgba(105,39,157,1) 100%);
+    background: black;/*radial-gradient(circle, rgba(0,169,171,1) 0%, rgba(105,39,157,1) 100%)*/
     height: 100vh;
     width: 100vw;
 }
