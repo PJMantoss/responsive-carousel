@@ -17,10 +17,9 @@ body {
 
 .slider-container {
     position: relative;
-    
-    width: 70%;
+    width: 50%;
     height: 100%;
-   
+    overflow: hidden;
 }
 
 .slider-container .slider {
