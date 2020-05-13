@@ -30,7 +30,7 @@ body {
     animation: slide 15s infinite;
 }
 
-.slide {
+.slider .slide {
     position: relative;
     display: flex;
     justify-content: center;
