@@ -4,25 +4,26 @@
 }
 
 body {
-    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(0,169,171,1) 0%, rgba(105,39,157,1) 100%);
     box-sizing: border-box;
     margin: auto;
     min-height: 100vh;
-    width: 100vw;
+    min-width: 100vw;
+    padding-top: 50vh;
 }
 
 .slider-container {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     width: 70%;
     height: 100%;
-    background: radial-gradient(circle, rgba(0,169,171,1) 0%, rgba(105,39,157,1) 100%);
-    overflow: hidden;
+   
 }
 
-.slider {
+.slider-container .slider {
     position: absolute;
     display: flex;
     width: 500%;
