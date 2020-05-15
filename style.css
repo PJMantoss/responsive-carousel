@@ -43,33 +43,33 @@ body {
 
 @keyframes slide {
     15% {
-        right: 0;
+        left: 0;
     }
     20% {
-        right: -100%;
+        left: -100%;
     }
     35% {
-        right: -100%;
+        left: -100%;
     }
     40% {
-        right: -200%;
+        left: -200%;
     }
     55%{
-        right: -200%;
+        left: -200%;
     }
     60% {
-        right: -300%;
+        left: -300%;
     }
     75% {
-        right: -300%;
+        left: -300%;
     }
     80% {
-        right: -400%;
+        left: -400%;
     }
     95% {
-        right: -400%;
+        left: -400%;
     }
     100% {
-        right: 0;
+        left: 0;
     }
 }
